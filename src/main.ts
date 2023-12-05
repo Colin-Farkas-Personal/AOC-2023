@@ -1,8 +1,8 @@
-import partB, { exampleFilePath, realfilePath } from "./01/B/run";
+import partB, { exampleFilePath, realFilePath } from "./02/B/run";
 
 // Runs code
 async function main() {
-  const result = await partB(realfilePath);
+  const result = await partB(realFilePath);
 
   console.log("------------------");
   console.log("Result: ", result);

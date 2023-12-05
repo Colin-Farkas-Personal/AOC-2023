@@ -1,7 +1,7 @@
 import getDataArrayAsync from "../../helpers/getFileData";
 
 export const exampleFilePath = __dirname + "/example.txt";
-export const realfilePath = __dirname + "/data.txt";
+export const realFilePath = __dirname + "/data.txt";
 
 export default async function parseArrayAsync(filePath: string) {
   try {

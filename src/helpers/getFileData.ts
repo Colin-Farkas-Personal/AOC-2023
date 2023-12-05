@@ -16,6 +16,7 @@ function getFileDataAsync(filePath: string): Promise<string> {
 export default async function getDataArrayAsync(filePath: string) {
   try {
     const data = await getFileDataAsync(filePath);
+
     return data.toString().split("\n");
   } catch (error) {
     console.error(error);
